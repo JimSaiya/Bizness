@@ -1,5 +1,20 @@
-Purpose
+Installation
 ============
+
+You will need Vagrant (and therefore VirtualBox) installed locally to run this application.
+Clone the repository locally, then run the quickstart.sh script. This will grab Ansible,
+and start up an Ubuntu 14.04 system. Ansible will install the PostgreSQL database and some
+other dependencies.
+
+$ git clone https://github.com/novapython/Bizness.git
+$ cd Bizness
+$ ./quickstart.sh
+
+After installation completes, you will be given a few command lines to populate the database
+and start up the development server.
+
+Purpose
+=======
 
 There are a lot of introductory programming resources available. There are a lot of advanced
 programming resources available as well. But the in-between is a really tough area. You are
