@@ -6,7 +6,8 @@ Clone the repository locally, then run the quickstart.sh script. This will grab 
 and start up an Ubuntu 14.04 system. Ansible will install the PostgreSQL database and some
 other dependencies.
 
-.. code:: bash
+::
+
   $ git clone https://github.com/novapython/Bizness.git
   $ cd Bizness
   $ ./quickstart.sh
